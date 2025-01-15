@@ -343,18 +343,18 @@ export default function About() {
                                                 wrap>
                                                 {skill.images.map((image, index) => (
                                                     <Flex
-                                                        key={index}
-                                                        border="neutral-medium"
-                                                        
+                                                    key={index}
+                                                    border="neutral-medium"
+                                                    
+                                                    radius="m"
+                                                    minWidth={image.width} height={image.height}>
+                                                    <SmartImage
+                                                        enlarge
                                                         radius="m"
-                                                        minWidth={image.width} height={image.height}>
-                                                        <SmartImage
-                                                            enlarge
-                                                            radius="m"
-                                                            sizes={image.width.toString()}
-                                                            alt={image.alt}
-                                                            src={image.src}/>
-                                                    </Flex>
+                                                        sizes={image.width.toString()}
+                                                        alt={image.alt}
+                                                        src={image.src}/>
+                                                </Flex>
                                                 ))}
                                             </Flex>
                                         )}

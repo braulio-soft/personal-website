@@ -86,7 +86,14 @@ const about = {
                     <>Led the integration of AI-powered support chat and real-time user communication features, enhancing user interaction and satisfaction.</>,
                     <>Implemented new functionalities and restructured the project, ensuring scalability and maintainability.</>
                 ],
-                images: []
+                images: [
+                    {
+                        src: '/images/LUV-logo-website.webp',
+                        alt: 'Laravel Project',
+                        width: 9,
+                        height: 9
+                    }
+                ]
             },
             {
                 company: 'Sony',
@@ -97,7 +104,14 @@ const about = {
                     <>Conducted demos and client meetings, presenting new features and gathering feedback for upcoming ETL process improvements.</>,
                     <>Collaborated with cross-functional teams to design and implement data pipelines for improved customer management.</>
                 ],
-                images: []
+                images: [
+                    {
+                        src: '/images/sony-900x503.jpg.webp',
+                        alt: 'Laravel Project',
+                        width: 17,
+                        height: 9
+                    }
+                ]
             },
             {
                 company: 'Interbank',
@@ -108,7 +122,14 @@ const about = {
                     <>Implemented a notification management system using <InlineCode>Spring Boot</InlineCode> and <InlineCode>Azure</InlineCode>, streamlining admin tasks and improving system reliability.</>,
                     <>Enhanced the admin dashboard UI with <InlineCode>Vue.js</InlineCode>, creating a more intuitive and user-friendly interface.</>
                 ],
-                images: []
+                images: [
+                    {
+                        src: '/images/seguro-360-interbank.webp',
+                        alt: 'Laravel Project',
+                        width: 16,
+                        height: 9
+                    }
+                ]
             },
             {
                 company: 'Banco de Crédito del Perú (BCP)',
@@ -119,7 +140,14 @@ const about = {
                     <>Developed unit tests with <InlineCode>JestJS</InlineCode>, ensuring the stability and reliability of new functionalities.</>,
                     <>Implemented dynamic form validation for customer registration using <InlineCode>ReactJS</InlineCode>, enhancing user experience.</>
                 ],
-                images: []
+                images: [
+                    {
+                        src: '/images/bcpapp.png',
+                        alt: 'Laravel Project',
+                        width: 10,
+                        height: 9
+                    }
+                ]
             },
             {
                 company: 'Blaze Inc.',
@@ -130,7 +158,14 @@ const about = {
                     <>Enhanced client-side form validation and error handling using <InlineCode>Vue.js</InlineCode>, improving the user experience.</>,
                     <>Troubleshot and resolved technical issues, documenting solutions to enhance team efficiency.</>
                 ],
-                images: []
+                images: [
+                    {
+                        src: '/images/blaze-home.png',
+                        alt: 'Laravel Project',
+                        width: 16,
+                        height: 9
+                    }
+                ]
             }
         ]
     },
@@ -163,47 +198,92 @@ const about = {
         {
             title: 'PHP & Laravel',
             description: <>Proficient in building scalable applications using PHP and Laravel, with experience in Laravel versions 10 and 11.</>,
-            images: []
+            images: [{
+                src: '/images/Laravel.jpg',
+                alt: 'Laravel Skill',
+                width: 16,
+                height: 9
+            }]
         },
         {
             title: 'Golang',
             description: <>Experienced in developing high-performance backend services using Golang for ETL processes and system integration.</>,
-            images: []
+            images: [{
+                src: '/images/Golang.png',
+                alt: 'Golang Skill',
+                width: 16,
+                height: 9
+            }]
         },
         {
             title: 'Java & Spring Boot',
             description: <>Skilled in building enterprise-level applications with Java (11, 17) and Spring Boot, including Spring Batch for batch processing.</>,
-            images: []
+            images: [{
+                src: '/images/javaspring.jpg',
+                alt: 'Java and Spring',
+                width: 20,
+                height: 9
+            }]
         },
         {
             title: 'Vue.js & React.js',
             description: <>Developed dynamic and intuitive user interfaces using Vue.js and React.js for various applications.</>,
-            images: []
+            images: [{
+                src: '/images/react&vue.png',
+                alt: 'Vue and React',
+                width: 16,
+                height: 9
+            }]
         },
         {
             title: 'Snowflake',
             description: <>Expertise in ETL processes and data synchronization using Snowflake .</>,
-            images: []
+            images: [{
+                src: '/images/snowflake.avif',
+                alt: 'Snowflake',
+                width: 16,
+                height: 12
+            }]
         },
         {
             title: 'AWS & Azure',
             description: <>Hands-on experience with cloud services such as AWS (S3, Lambda, API Gateway) and Azure for deploying and managing applications.</>,
-            images: []
+            images: [{
+                src: '/images/clouds.jpg',
+                alt: 'Amazon and Azure',
+                width: 16,
+                height: 9
+            }]
         },
         {
             title: 'Docker & Kubernetes',
             description: <>Proficient in containerization and orchestration using Docker and Kubernetes for scalable and portable applications.</>,
-            images: []
+            images: [{
+                src: '/images/docker.jpg',
+                alt: 'Docker and Kube',
+                width: 16,
+                height: 9
+            }]
         },
         {
             title: 'Git & CI/CD',
             description: <>Skilled in version control with Git and implementing CI/CD pipelines to streamline deployment workflows.</>,
-            images: []
+            images: [{
+                src: '/images/GIT.jpg',
+                alt: 'Git',
+                width: 16,
+                height: 9
+            }]
         },
         {
             title: 'PostgreSQL & MongoDB',
             description: <>Experienced in designing and optimizing relational databases with PostgreSQL and MongoDB.</>,
-            images: []
+            images: [{
+                src: '/images/postgres&mongo.jpg',
+                alt: 'Mongo PostgresSQL',
+                width: 16,
+                height: 9
+            }]
         }
     ]
 },
