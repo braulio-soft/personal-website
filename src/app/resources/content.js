@@ -89,7 +89,7 @@ const about = {
                 images: [
                     {
                         src: '/images/LUV-logo-website.webp',
-                        alt: 'Laravel Project',
+                        alt: 'LUV Project',
                         width: 9,
                         height: 9
                     }
@@ -107,7 +107,7 @@ const about = {
                 images: [
                     {
                         src: '/images/sony-900x503.jpg.webp',
-                        alt: 'Laravel Project',
+                        alt: 'Sony Project',
                         width: 17,
                         height: 9
                     }
@@ -125,7 +125,7 @@ const about = {
                 images: [
                     {
                         src: '/images/seguro-360-interbank.webp',
-                        alt: 'Laravel Project',
+                        alt: 'Interbank Project',
                         width: 16,
                         height: 9
                     }
@@ -143,7 +143,7 @@ const about = {
                 images: [
                     {
                         src: '/images/bcpapp.png',
-                        alt: 'Laravel Project',
+                        alt: 'BCP Project',
                         width: 10,
                         height: 9
                     }
@@ -161,7 +161,7 @@ const about = {
                 images: [
                     {
                         src: '/images/blaze-home.png',
-                        alt: 'Laravel Project',
+                        alt: 'Blaze Project',
                         width: 16,
                         height: 9
                     }
